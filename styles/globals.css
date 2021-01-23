@@ -1,4 +1,14 @@
-html,
+:root {
+  box-sizing: border-box;
+  font-size: calc(0.5em + 1vw);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -11,6 +21,7 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
