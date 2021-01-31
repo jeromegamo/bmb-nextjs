@@ -1,0 +1,30 @@
+.navbar {
+  position: relative;
+  font-size: 1rem;
+  padding: 1em 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+}
+
+.company-logo {
+  height: 4rem;
+}
+
+.menu-button {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.menu {
+  margin: 0;
+  list-style-type: none;
+  padding: 0.5em 0;
+  border: 1px solid gray;
+}
+
+
+.menu > li {
+  padding: 0.8em 1.5em;
+}
